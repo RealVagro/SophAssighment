@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@900&family=Poppins:wght@600&display=swap');
+body {
+    background-color: #7FC8A9;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #444941;
+}
+
+img {
+    margin-left: 34%;
+    width: 400px;
+}
+
+.header{
+    background-color: #D5EEBB;
+    padding: 100px;
+
+}
+
+h1{
+    margin-top: 0px;
+    margin-left: 35%;
+    color: #444941;
+    margin-bottom: 50px;
+}
+
+.topnav a {
+    float: middle;
+    color: #444941;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 200px  ;
+
+  }
+  
+  .topnav a:hover {
+    background-color: #444941;
+    color: black;
+  }
+
+  .hr-text{
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+  }
+   .hr-text:before {
+      content: '';
+     
+      background: linear-gradient(to right, transparent, #818078, transparent);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 1px;
+    }
+   .hr-text:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: black;
+  
+      padding: 0 .5em;
+      line-height: 1.5em;
+      
+      color: #444941;
+      background-color: #fcfcfa;
+    }
+
+p { color: #444941; font-size: 23px; font-family: "Libre Baskerville", serif; line-height: 45px; text-align: center; text-shadow: 0 1px 1px #fff; padding-top: 20px; }
+
+
+p.byline { font-style: italic; color: #444941; font-size: 24px; margin-top: 20px; text-align: center; text-shadow: 0 1px 1px #fff; }
+
+.infoPara{
+  font-size: 19px ;
+}
+
+h2 { color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0; margin-left:43% ; }
+
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
